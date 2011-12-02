@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `ftree` (
 
 INSERT INTO `ftree` (`id`, `name`, `father`, `mother`, `spouse`) VALUES
 (1, 'Granpa', -1, -1, 2),
-(2, 'Granma', -1, -1, 1),;
+(2, 'Granma', -1, -1, 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
